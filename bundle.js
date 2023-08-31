@@ -7310,8 +7310,8 @@ function createSearchParams(init) {
 // EXTERNAL MODULE: ./node_modules/classnames/bind.js
 var bind = __webpack_require__(7166);
 var bind_default = /*#__PURE__*/__webpack_require__.n(bind);
-;// CONCATENATED MODULE: ./src/assets/images/hero.png
-/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.png");
+;// CONCATENATED MODULE: ./src/assets/images/hero.webp
+/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.webp");
 ;// CONCATENATED MODULE: ./src/assets/images/trending.mp4
 /* harmony default export */ const trending = (__webpack_require__.p + "static/trending.mp4");
 ;// CONCATENATED MODULE: ./src/assets/images/find.mp4
