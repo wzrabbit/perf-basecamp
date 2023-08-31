@@ -7310,8 +7310,14 @@ function createSearchParams(init) {
 // EXTERNAL MODULE: ./node_modules/classnames/bind.js
 var bind = __webpack_require__(7166);
 var bind_default = /*#__PURE__*/__webpack_require__.n(bind);
-;// CONCATENATED MODULE: ./src/assets/images/hero.webp
-/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.webp");
+;// CONCATENATED MODULE: ./src/assets/images/hero.png
+/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.png");
+;// CONCATENATED MODULE: ./src/assets/images/hero_small.webp
+/* harmony default export */ const hero_small = (__webpack_require__.p + "static/hero_small.webp");
+;// CONCATENATED MODULE: ./src/assets/images/hero_medium.webp
+/* harmony default export */ const hero_medium = (__webpack_require__.p + "static/hero_medium.webp");
+;// CONCATENATED MODULE: ./src/assets/images/hero_large.webp
+/* harmony default export */ const hero_large = (__webpack_require__.p + "static/hero_large.webp");
 ;// CONCATENATED MODULE: ./src/assets/images/trending.mp4
 /* harmony default export */ const trending = (__webpack_require__.p + "static/trending.mp4");
 ;// CONCATENATED MODULE: ./src/assets/images/find.mp4
@@ -7572,9 +7578,12 @@ var Home_module_update = injectStylesIntoStyleTag_default()(Home_module/* defaul
 
 
 
+
+
+
 const Home = () => {
     const wrapperRef = (0,react.useRef)(null);
-    return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsxs)("section", Object.assign({ className: Home_Home_module.heroSection }, { children: [(0,jsx_runtime.jsx)("img", { className: Home_Home_module.heroImage, src: hero, srcSet: `${hero} 500w, ${hero} 1000w,${hero} 1500w,`, alt: "hero image" }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.projectTitle }, { children: [(0,jsx_runtime.jsx)("h1", Object.assign({ className: Home_Home_module.title }, { children: "Memegle" })), (0,jsx_runtime.jsx)("h3", Object.assign({ className: Home_Home_module.subtitle }, { children: "gif search engine for you" }))] })), (0,jsx_runtime.jsx)(Link, Object.assign({ to: "/search" }, { children: (0,jsx_runtime.jsx)("button", Object.assign({ className: bind_default()(Home_Home_module.cta, Home_Home_module.linkButton) }, { children: "start search" })) }))] })), (0,jsx_runtime.jsxs)("section", Object.assign({ ref: wrapperRef, className: Home_Home_module.featureSection }, { children: [(0,jsx_runtime.jsx)(AnimatedPath_AnimatedPath, { wrapperRef: wrapperRef }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.featureSectionWrapper }, { children: [(0,jsx_runtime.jsx)("h2", Object.assign({ className: Home_Home_module.featureTitle }, { children: "Features" })), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.featureItemContainer }, { children: [(0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "See trending gif", imageSrc: trending }), (0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "Find gif for free", imageSrc: find }), (0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "Free for everyone", imageSrc: free })] })), (0,jsx_runtime.jsx)(Link, Object.assign({ to: "/search" }, { children: (0,jsx_runtime.jsx)("button", Object.assign({ className: Home_Home_module.linkButton }, { children: "start search" })) }))] }))] })), (0,jsx_runtime.jsx)(CustomCursor_CustomCursor, { text: "memegle" })] }));
+    return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsxs)("section", Object.assign({ className: Home_Home_module.heroSection }, { children: [(0,jsx_runtime.jsxs)("picture", { children: [(0,jsx_runtime.jsx)("source", { type: "image/webp", srcSet: `${hero_small} 500w, ${hero_medium} 1000w, ${hero_large} 2000w` }), (0,jsx_runtime.jsx)("img", { className: Home_Home_module.heroImage, src: hero, alt: "hero image" })] }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.projectTitle }, { children: [(0,jsx_runtime.jsx)("h1", Object.assign({ className: Home_Home_module.title }, { children: "Memegle" })), (0,jsx_runtime.jsx)("h3", Object.assign({ className: Home_Home_module.subtitle }, { children: "gif search engine for you" }))] })), (0,jsx_runtime.jsx)(Link, Object.assign({ to: "/search" }, { children: (0,jsx_runtime.jsx)("button", Object.assign({ className: bind_default()(Home_Home_module.cta, Home_Home_module.linkButton) }, { children: "start search" })) }))] })), (0,jsx_runtime.jsxs)("section", Object.assign({ ref: wrapperRef, className: Home_Home_module.featureSection }, { children: [(0,jsx_runtime.jsx)(AnimatedPath_AnimatedPath, { wrapperRef: wrapperRef }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.featureSectionWrapper }, { children: [(0,jsx_runtime.jsx)("h2", Object.assign({ className: Home_Home_module.featureTitle }, { children: "Features" })), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.featureItemContainer }, { children: [(0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "See trending gif", imageSrc: trending }), (0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "Find gif for free", imageSrc: find }), (0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "Free for everyone", imageSrc: free })] })), (0,jsx_runtime.jsx)(Link, Object.assign({ to: "/search" }, { children: (0,jsx_runtime.jsx)("button", Object.assign({ className: Home_Home_module.linkButton }, { children: "start search" })) }))] }))] })), (0,jsx_runtime.jsx)(CustomCursor_CustomCursor, { text: "memegle" })] }));
 };
 /* harmony default export */ const Home_Home = (Home);
 
