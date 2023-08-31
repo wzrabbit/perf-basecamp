@@ -7312,12 +7312,12 @@ var bind = __webpack_require__(7166);
 var bind_default = /*#__PURE__*/__webpack_require__.n(bind);
 ;// CONCATENATED MODULE: ./src/assets/images/hero.png
 /* harmony default export */ const hero = (__webpack_require__.p + "static/hero.png");
-;// CONCATENATED MODULE: ./src/assets/images/trending.gif
-/* harmony default export */ const trending = (__webpack_require__.p + "static/trending.gif");
-;// CONCATENATED MODULE: ./src/assets/images/find.gif
-/* harmony default export */ const find = (__webpack_require__.p + "static/find.gif");
-;// CONCATENATED MODULE: ./src/assets/images/free.gif
-/* harmony default export */ const free = (__webpack_require__.p + "static/free.gif");
+;// CONCATENATED MODULE: ./src/assets/images/trending.mp4
+/* harmony default export */ const trending = (__webpack_require__.p + "static/trending.mp4");
+;// CONCATENATED MODULE: ./src/assets/images/find.mp4
+/* harmony default export */ const find = (__webpack_require__.p + "static/find.mp4");
+;// CONCATENATED MODULE: ./src/assets/images/free.mp4
+/* harmony default export */ const free = (__webpack_require__.p + "static/free.mp4");
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
 var injectStylesIntoStyleTag = __webpack_require__(3379);
 var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(injectStylesIntoStyleTag);
@@ -7371,7 +7371,7 @@ var update = injectStylesIntoStyleTag_default()(FeatureItem_module/* default */.
 
 
 const FeatureItem = ({ title, imageSrc }) => {
-    return ((0,jsx_runtime.jsxs)("div", Object.assign({ className: FeatureItem_FeatureItem_module.featureItem }, { children: [(0,jsx_runtime.jsx)("img", { className: FeatureItem_FeatureItem_module.featureImage, src: imageSrc }), (0,jsx_runtime.jsx)("div", { className: FeatureItem_FeatureItem_module.featureTitleBg }), (0,jsx_runtime.jsx)("h4", Object.assign({ className: FeatureItem_FeatureItem_module.featureTitle }, { children: title }))] })));
+    return ((0,jsx_runtime.jsxs)("div", Object.assign({ className: FeatureItem_FeatureItem_module.featureItem }, { children: [(0,jsx_runtime.jsx)("video", { autoPlay: true, loop: true, muted: true, className: FeatureItem_FeatureItem_module.featureImage, src: imageSrc }), (0,jsx_runtime.jsx)("div", { className: FeatureItem_FeatureItem_module.featureTitleBg }), (0,jsx_runtime.jsx)("h4", Object.assign({ className: FeatureItem_FeatureItem_module.featureTitle }, { children: title }))] })));
 };
 /* harmony default export */ const FeatureItem_FeatureItem = (FeatureItem);
 
