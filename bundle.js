@@ -7604,10 +7604,10 @@ var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _argume
     });
 };
 
-const apiKey = "MISSING_ENV_VAR".GIPHY_API_KEY || '';
+const apiKey = "ogNw2XNPlBASH6jv1nWqdXvIDaDIgMZP" || 0;
 const gf = new dist.GiphyFetch(apiKey);
 const DEFAULT_FETCH_COUNT = 16;
-const TRENDING_GIF_API = `https://api.giphy.com/v1/gifs/trending?api_key=${"MISSING_ENV_VAR".GIPHY_API_KEY}&limit=${DEFAULT_FETCH_COUNT}&rating=g`;
+const TRENDING_GIF_API = `https://api.giphy.com/v1/gifs/trending?api_key=${"ogNw2XNPlBASH6jv1nWqdXvIDaDIgMZP"}&limit=${DEFAULT_FETCH_COUNT}&rating=g`;
 function convertResponseToModel(gifList) {
     return gifList.map((gif) => {
         const { id, title, images } = gif;
@@ -10451,10 +10451,11 @@ var GifItem_module_update = injectStylesIntoStyleTag_default()(GifItem_module/* 
 ;// CONCATENATED MODULE: ./src/pages/Search/components/GifItem/GifItem.tsx
 
 
+
 const GifItem = ({ imageUrl = '', title = '' }) => {
     return ((0,jsx_runtime.jsxs)("div", Object.assign({ className: GifItem_GifItem_module.gifItem }, { children: [(0,jsx_runtime.jsx)("img", { className: GifItem_GifItem_module.gifImage, src: imageUrl }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: GifItem_GifItem_module.gifTitleContainer }, { children: [(0,jsx_runtime.jsx)("div", { className: GifItem_GifItem_module.gifTitleBg }), (0,jsx_runtime.jsx)("h4", Object.assign({ className: GifItem_GifItem_module.gifTitle }, { children: title }))] }))] })));
 };
-/* harmony default export */ const GifItem_GifItem = (GifItem);
+/* harmony default export */ const GifItem_GifItem = ((0,react.memo)(GifItem));
 
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/pages/Search/components/SearchResult/SearchResult.module.css
 var SearchResult_module = __webpack_require__(2565);
