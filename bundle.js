@@ -3479,7 +3479,7 @@ var App_update = injectStylesIntoStyleTag_default()(App/* default */.Z, App_opti
 
 
 
-const Home = (0,react.lazy)(() => __webpack_require__.e(/* import() */ 526).then(__webpack_require__.bind(__webpack_require__, 6292)));
+const Home = (0,react.lazy)(() => __webpack_require__.e(/* import() */ 77).then(__webpack_require__.bind(__webpack_require__, 5787)));
 const Search = (0,react.lazy)(() => Promise.all(/* import() */[__webpack_require__.e(596), __webpack_require__.e(742)]).then(__webpack_require__.bind(__webpack_require__, 968)));
 const App_App = () => {
     return ((0,jsx_runtime.jsx)(react.Suspense, { children: (0,jsx_runtime.jsxs)(react_router_dom/* BrowserRouter */.VK, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsxs)(react_router/* Routes */.Z5, { children: [(0,jsx_runtime.jsx)(react_router/* Route */.AW, { path: "/", element: (0,jsx_runtime.jsx)(Home, {}) }), (0,jsx_runtime.jsx)(react_router/* Route */.AW, { path: "/search", element: (0,jsx_runtime.jsx)(Search, {}) })] }), (0,jsx_runtime.jsx)(Footer_Footer, {})] }) }));

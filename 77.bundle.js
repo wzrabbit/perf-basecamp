@@ -1,4 +1,4 @@
-(self["webpackChunkfrontend_performance_basecamp"] = self["webpackChunkfrontend_performance_basecamp"] || []).push([[526],{
+(self["webpackChunkfrontend_performance_basecamp"] = self["webpackChunkfrontend_performance_basecamp"] || []).push([[77],{
 
 /***/ 7166:
 /***/ ((module, exports) => {
@@ -177,7 +177,7 @@ ___CSS_LOADER_EXPORT___.locals = {
 
 /***/ }),
 
-/***/ 6292:
+/***/ 5787:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -212,6 +212,12 @@ const trending_namespaceObject = __webpack_require__.p + "c0fdcdccb18eec4cf12d.w
 const find_namespaceObject = __webpack_require__.p + "5918b14da8789ff2c0e1.webm";
 ;// CONCATENATED MODULE: ./src/assets/images/free.webm
 const free_namespaceObject = __webpack_require__.p + "f6e124e0dc8ab6d105fe.webm";
+;// CONCATENATED MODULE: ./src/assets/images/trending.mp4
+const assets_images_trending_namespaceObject = __webpack_require__.p + "185e6cc974c74ba3f31d.mp4";
+;// CONCATENATED MODULE: ./src/assets/images/find.mp4
+const assets_images_find_namespaceObject = __webpack_require__.p + "a73f85648777a42575e8.mp4";
+;// CONCATENATED MODULE: ./src/assets/images/free.mp4
+const assets_images_free_namespaceObject = __webpack_require__.p + "fb1c2670cf224b93b9bb.mp4";
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
 var injectStylesIntoStyleTag = __webpack_require__(3379);
 var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(injectStylesIntoStyleTag);
@@ -264,8 +270,8 @@ var update = injectStylesIntoStyleTag_default()(FeatureItem_module/* default */.
 ;// CONCATENATED MODULE: ./src/pages/Home/components/FeatureItem/FeatureItem.tsx
 
 
-const FeatureItem = ({ title, imageSrc }) => {
-    return ((0,jsx_runtime.jsxs)("div", Object.assign({ className: FeatureItem_FeatureItem_module.featureItem }, { children: [(0,jsx_runtime.jsx)("video", { autoPlay: true, loop: true, muted: true, className: FeatureItem_FeatureItem_module.featureImage, src: imageSrc }), (0,jsx_runtime.jsx)("div", { className: FeatureItem_FeatureItem_module.featureTitleBg }), (0,jsx_runtime.jsx)("h4", Object.assign({ className: FeatureItem_FeatureItem_module.featureTitle }, { children: title }))] })));
+const FeatureItem = ({ title, webmSrc, mp4Src }) => {
+    return ((0,jsx_runtime.jsxs)("div", Object.assign({ className: FeatureItem_FeatureItem_module.featureItem }, { children: [(0,jsx_runtime.jsxs)("video", Object.assign({ autoPlay: true, loop: true, muted: true, className: FeatureItem_FeatureItem_module.featureImage }, { children: [(0,jsx_runtime.jsx)("source", { src: webmSrc, type: "video/webm" }), (0,jsx_runtime.jsx)("source", { src: mp4Src, type: "video/mp4" })] })), (0,jsx_runtime.jsx)("div", { className: FeatureItem_FeatureItem_module.featureTitleBg }), (0,jsx_runtime.jsx)("h4", Object.assign({ className: FeatureItem_FeatureItem_module.featureTitle }, { children: title }))] })));
 };
 /* harmony default export */ const FeatureItem_FeatureItem = (FeatureItem);
 
@@ -469,10 +475,13 @@ var Home_module_update = injectStylesIntoStyleTag_default()(Home_module/* defaul
 
 
 
+
+
+
 const heroImageSrcSet = `${hero_small_namespaceObject} 500w, ${hero_medium_namespaceObject} 1000w, ${hero_large_namespaceObject} 1500w`;
 const Home = () => {
     const wrapperRef = (0,react.useRef)(null);
-    return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsxs)("section", Object.assign({ className: Home_Home_module.heroSection }, { children: [(0,jsx_runtime.jsxs)("picture", { children: [(0,jsx_runtime.jsx)("source", { type: "image/webp", srcSet: heroImageSrcSet }), (0,jsx_runtime.jsx)("img", { className: Home_Home_module.heroImage, src: hero_namespaceObject, fetchPriority: "high", alt: "hero image" })] }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.projectTitle }, { children: [(0,jsx_runtime.jsx)("h1", Object.assign({ className: Home_Home_module.title }, { children: "Memegle" })), (0,jsx_runtime.jsx)("h3", Object.assign({ className: Home_Home_module.subtitle }, { children: "gif search engine for you" }))] })), (0,jsx_runtime.jsx)(react_router_dom/* Link */.rU, Object.assign({ to: "/search" }, { children: (0,jsx_runtime.jsx)("button", Object.assign({ className: bind_default()(Home_Home_module.cta, Home_Home_module.linkButton) }, { children: "start search" })) }))] })), (0,jsx_runtime.jsxs)("section", Object.assign({ ref: wrapperRef, className: Home_Home_module.featureSection }, { children: [(0,jsx_runtime.jsx)(AnimatedPath_AnimatedPath, { wrapperRef: wrapperRef }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.featureSectionWrapper }, { children: [(0,jsx_runtime.jsx)("h2", Object.assign({ className: Home_Home_module.featureTitle }, { children: "Features" })), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.featureItemContainer }, { children: [(0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "See trending gif", imageSrc: trending_namespaceObject }), (0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "Find gif for free", imageSrc: find_namespaceObject }), (0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "Free for everyone", imageSrc: free_namespaceObject })] })), (0,jsx_runtime.jsx)(react_router_dom/* Link */.rU, Object.assign({ to: "/search" }, { children: (0,jsx_runtime.jsx)("button", Object.assign({ className: Home_Home_module.linkButton }, { children: "start search" })) }))] }))] })), (0,jsx_runtime.jsx)(CustomCursor_CustomCursor, { text: "memegle" })] }));
+    return ((0,jsx_runtime.jsxs)(jsx_runtime.Fragment, { children: [(0,jsx_runtime.jsxs)("section", Object.assign({ className: Home_Home_module.heroSection }, { children: [(0,jsx_runtime.jsxs)("picture", { children: [(0,jsx_runtime.jsx)("source", { type: "image/webp", srcSet: heroImageSrcSet }), (0,jsx_runtime.jsx)("img", { className: Home_Home_module.heroImage, src: hero_namespaceObject, fetchPriority: "high", alt: "hero image" })] }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.projectTitle }, { children: [(0,jsx_runtime.jsx)("h1", Object.assign({ className: Home_Home_module.title }, { children: "Memegle" })), (0,jsx_runtime.jsx)("h3", Object.assign({ className: Home_Home_module.subtitle }, { children: "gif search engine for you" }))] })), (0,jsx_runtime.jsx)(react_router_dom/* Link */.rU, Object.assign({ to: "/search" }, { children: (0,jsx_runtime.jsx)("button", Object.assign({ className: bind_default()(Home_Home_module.cta, Home_Home_module.linkButton) }, { children: "start search" })) }))] })), (0,jsx_runtime.jsxs)("section", Object.assign({ ref: wrapperRef, className: Home_Home_module.featureSection }, { children: [(0,jsx_runtime.jsx)(AnimatedPath_AnimatedPath, { wrapperRef: wrapperRef }), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.featureSectionWrapper }, { children: [(0,jsx_runtime.jsx)("h2", Object.assign({ className: Home_Home_module.featureTitle }, { children: "Features" })), (0,jsx_runtime.jsxs)("div", Object.assign({ className: Home_Home_module.featureItemContainer }, { children: [(0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "See trending gif", webmSrc: trending_namespaceObject, mp4Src: assets_images_trending_namespaceObject }), (0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "Find gif for free", webmSrc: find_namespaceObject, mp4Src: assets_images_find_namespaceObject }), (0,jsx_runtime.jsx)(FeatureItem_FeatureItem, { title: "Free for everyone", webmSrc: free_namespaceObject, mp4Src: assets_images_free_namespaceObject })] })), (0,jsx_runtime.jsx)(react_router_dom/* Link */.rU, Object.assign({ to: "/search" }, { children: (0,jsx_runtime.jsx)("button", Object.assign({ className: Home_Home_module.linkButton }, { children: "start search" })) }))] }))] })), (0,jsx_runtime.jsx)(CustomCursor_CustomCursor, { text: "memegle" })] }));
 };
 /* harmony default export */ const Home_Home = (Home);
 
@@ -480,4 +489,4 @@ const Home = () => {
 /***/ })
 
 }]);
-//# sourceMappingURL=526.bundle.js.map
+//# sourceMappingURL=77.bundle.js.map
